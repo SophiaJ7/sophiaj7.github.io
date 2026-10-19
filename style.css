@@ -178,6 +178,23 @@ a.card:hover { border-color: var(--accent); }
 }
 .site-footer .wrap { padding-top: 20px; padding-bottom: 28px; }
 
+.fig {
+  margin: 28px 0;
+}
+.fig img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1px solid var(--rule);
+  border-radius: 6px;
+}
+.fig figcaption {
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 6px;
+}
+
 @media (max-width: 520px) {
   body { font-size: 17px; }
   h1 { font-size: 1.75rem; }
